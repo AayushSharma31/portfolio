@@ -19,12 +19,8 @@ const Skills = () => {
                 {
                     skillsData.map((skill,index)=>
                     
-                         <div key={index} className='p-6 border bg-teal-50/10 border-real-700 rounded-xl cursor-pointer hover:border-b-4 hover: border-b-teal-800 
-                        hover:border-r-4  hover:border-r-teal-800 hover:-translate-y-1 
-                        transition-all duration-300
+                         <div key={index} className='p-6 border bg-teal-50/10 border-teal-700 rounded-xl text-center cursor-pointer hover:border-b-4 hover:border-b-teal-800 hover:border-r-4 hover:border-r-teal-800 hover:-translate-y-1 transition-all duration-300
 
-
-                         
                          '>
                                <div className='w-16 h-16 mx-auto rounded-full flex items-center justify-center border border-gray-300 bg-gray-50 mb-4'>
                                   <skill.icon className='w-8 h-8 text-teal-800'/>
